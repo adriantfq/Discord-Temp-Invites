@@ -42,7 +42,7 @@ function ReadURL($URL)
     return $data;
 }
 
-// Verify that the user isn't on a VPN, if they aren't, call Finish()
+// Verify that the user isn't on a VPN
 function Verify()
 {
     global $ip;
